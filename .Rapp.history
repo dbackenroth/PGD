@@ -1,9 +1,0 @@
-source("Utilities.R")
-load("CW2.Rdata")
-ls()
-library(devtools)
-setwd("/Users/db2175/Dropbox/Daniel/Biostatistics/Carmi/HMMCode")
-source("HaplotypeBlocks.R")
-DoWithFB("chr21")
-DoWithFB("chr13")
-for (chr in paste0("chr", 1:22)){DoWithFB(chr)}
